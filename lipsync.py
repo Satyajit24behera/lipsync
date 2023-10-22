@@ -1,0 +1,2 @@
+%cd /content/Wav2Lip
+!python inference.py --checkpoint_path "/content/Wav2Lip/checkpoints/wav2lip.pth" --face "/content/input_video (online-video-cutter.com).mp4" --audio "/content/input_audio-[AudioTrimmer.com].wav" --pads 0 20 0 0 --resize_factor 2
